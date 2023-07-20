@@ -1,0 +1,50 @@
+name: barterit
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  fluttertoast: ^8.2.2
+  intl: ^0.18.1
+  path_provider: ^2.0.15
+  multi_image_picker: ^4.8.1
+  carousel_slider: ^4.0.0
+  cached_network_image: ^3.2.3
+  geocoding: ^2.1.0
+  cupertino_icons: ^1.0.2
+  http: ^0.13.6
+  flutter_svg: ^2.0.5
+  google_fonts: ^4.0.4
+  shared_preferences: ^2.1.1
+  image_picker: ^0.8.7+5
+  image_cropper: ^4.0.1
+  geolocator: ^9.0.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
+  uses-material-design: true
+  assets: 
+    - assets/images/barter1.jpg
+    - assets/images/barter2.jpg
+    - assets/images/barter3.png
+    - assets/images/barter4.jpg
+    - assets/images/barter5.jpg
+    - assets/images/barter6.jpg
+    - assets/images/barter7.jpg
+    - assets/images/barter8.jpg
+    - assets/images/camera.jpg
+    - assets/images/profile.png
+    - assets/eula/eula.txt
